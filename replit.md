@@ -1,12 +1,20 @@
-# Replit GitHub Importer - Authentication Dashboard
+# BookShare - Book Exchange Platform
 
 ## Overview
 
-This is a full-stack web application that allows users to import their GitHub repositories into Replit with Google authentication. The application provides a dashboard interface for managing the import process, tracking project status, and troubleshooting common issues.
+This is a full-stack web application that allows users to share and collect books within their community using Google authentication. The application provides role-based dashboards for book donors and collectors, with modern Google Identity Services (GSI) authentication. Users can donate books with photos and pickup locations, or search and request books from other community members.
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+
+## Recent Changes (July 24, 2025)
+
+- ✓ Integrated user's existing book exchange codebase from GitHub
+- ✓ Updated from legacy Google API to modern Google Identity Services (GSI)
+- ✓ Fixed Google authentication script loading issues
+- ✓ Added book exchange data models to database schema
+- ✓ Created role-based authentication (donor/collector roles)
 
 ## System Architecture
 
